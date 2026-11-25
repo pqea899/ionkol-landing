@@ -20,11 +20,12 @@ python3 -m http.server 8080
 | `index.html` | Home |
 | `jobs.html`, `job.html` | Jobs list and one job post |
 | `contact.html` | Contact and Book a demo |
-| `signup.html`, `login.html` | Sign up and log in |
+| `signup.html`, `signup-business.html`, `signup-creator.html`, `login.html` | Sign up (choose business or creator, then one page each) and log in |
 | `terms.html`, `privacy.html` | Legal pages (draft, awaiting legal review) |
 | `404.html` | Not found |
 | `*-ko.html`, `*-ms.html`, `*-zh-hans.html`, `*-zh-hant.html` | Korean, Malay, Simplified and Traditional Chinese versions of home, jobs, contact, sign up, log in and 404 |
 | `img/` | Photos (WebP) |
+| `og.jpg`, `favicon.svg` | Share image and browser icon (stand-ins until the final logo) |
 | `vid/` | Hero video: `hero.mp4` (desktop), `hero-m.mp4` (phone) and `hero-poster.jpg` |
 
 ## Editing
