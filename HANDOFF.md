@@ -16,6 +16,7 @@ Every form shows "Preview: … is switched off" until it's connected.
 | 6 | Plus waitlist | Kept on purpose (owner's call, 25 Nov 2026). Form `#wl` (one email) → its own Brevo list. | Small | Low |
 | 7 | Contact form | Form `#cf` (`fn` first name, `ln` last name, `e` email, `m` message) → one small endpoint that emails support@ionkol.com. The Malay demo request form `#df` works the same way. | Small | Low |
 | 8 | Hero creator search | Form `#cs` → our own API returns the creator's public profile or "not found". Each lookup is a paid data request: cache results and set a daily budget agreed with the owner before switching it on. | Medium | Low |
+| 10 | Creators page | `creators.html` ("For creators" in the top bar) has two actions: See jobs, and Get your report. The report form (`#crf`, one field `handle`) remembers the handle in the browser (`sessionStorage` key `ikh`) and opens creator sign-up with it filled in. The report itself is shown in the app after sign-up; it is the same paid profile lookup as the hero search, so the same cache and daily budget apply. | Small | Low |
 | 9 | Jobs | `jobs.html` shows 14 sample jobs. Feed it real open job posts from the app (photo, type, kind, category, city, format, offer, apply-by, applicants, spots). `job.html#<id>` shows one job. **Apply** links to the app. If there are no real jobs at launch, hide the Jobs links. | Medium | Low |
 
 Items 1–4 are enough to go live. Items 5–9 can follow one at a time.

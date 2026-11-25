@@ -18,6 +18,7 @@ python3 -m http.server 8080
 | File | Page |
 |---|---|
 | `index.html` | Home |
+| `creators.html` | For creators: see jobs, get your report |
 | `jobs.html`, `job.html` | Jobs list and one job post |
 | `contact.html` | Contact and Book a demo |
 | `signup.html`, `signup-business.html`, `signup-creator.html`, `login.html` | Sign up (choose business or creator, then one page each) and log in |
